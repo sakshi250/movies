@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MOVIES</title>
+</head>
+<body class="body">
+   <h1>MOVIES</h1>
+   <script>
+     //Create an array of objects named movies with its values name,release,year,genre,director using function to insert values in the array and display it in console
+     let movies=[];
+     let movie1={name:"THE CONJURING",release:"02-august",year:"2013",genre:"horror",director:"James Wan"};
+     let movie2={name:"INCEPTION",release:"16-july",year:"2010",genre:"heist",director:"Christopher Nolan"};
+     let movie3={name:"NON-STOP",release:"27-january",year:"2014",genre:"thriller",director:"Jaume Collet-Serra"};
+     let movie4={name:"WRETCH",release:"02-december",year:"2019",genre:"horror",director:"Mathew Dunehoo"};
+     let movie5={name:"EDGE OF TOMORROW",release:"28-may",year:"2014",genre:"mystrey",director:"Doug Liman"};
+     let movie6={name:"THE RING",release:"07-february",year:"2003",genre:"horror",director:"Gore Verbinski"};
+     let movie7={name:"HUSH",release:"12-march",year:"2016",genre:"horror",director:"Mike Flanagan"};
+     let movie8={name:"ShERLOCK HOLMES",release:"08-january",year:"2010",genre:"thriller",director:"Guy Ritchie"};
+     let movie9={name:"365 DAYS",release:"07-february",year:"2020",genre:"drama",director:"Tomasz Mandes"};
+     let movie10={name:"THE AVENGERS",release:"27-april",year:"2012",genre:"action",director:"Joss Whedon"};
+      movies.push(movie1);
+      movies.push(movie2);
+      movies.push(movie3);
+      movies.push(movie4);
+      movies.push(movie5);
+      movies.push(movie6);
+      movies.push(movie7);
+      movies.push(movie8);
+      movies.push(movie9);
+      movies.push(movie10);
+      console.log(movies);
+      movies.map(movie=>{
+            console.log(movie.name);
+            console.log(movie.release);
+            console.log(movie.year);
+            console.log(movie.genre);
+            console.log(movie.director);
+      });
+      
+
+   </script> 
+</body>
+</html>
